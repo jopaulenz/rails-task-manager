@@ -13,3 +13,74 @@
  *= require_tree .
  *= require_self
  */
+ body {
+  background-color: rgb(69, 160, 213);
+
+}
+h2 {
+  margin-top: 40px;
+  padding: 100px;
+  color: #32D2F2;
+  font-size: 200px;
+  text-align: center;
+}
+ul {
+  font-size: 44px;
+  color: antiquewhite;
+  text-decoration: none;
+  list-style-type: none;
+  margin-left: 80px;
+}
+p {
+  text-align: center;
+  font-size: 20px;
+
+}
+#hint {
+  background-color: #32D2F2;
+  font-size: 44px;
+}
+.form-check-input:checked ~ .form-check-label::before {
+  background-color:#32D2F2; /* Replace 'blue' with your desired color */
+}
+.input {
+  margin: 200pX:
+}
+#back {
+  text-decoration: none;
+  background-color: #32D2F2 ;
+}
+a {
+  text-align: center;
+  font-size: 24px;
+  text-decoration: none;
+  background-color: #32D2F2 ;
+  padding: 8px;
+  border-radius: 10px;
+  color: black;
+}
+.tasks {
+  display: flex;
+  list-style: none; /* Remove default list styling */
+  margin: 16px;
+}
+li {
+  margin: 16px;
+  font-weight: lighter;
+}
+
+button {
+
+  padding: 40px;
+  border-radius: 50%;
+  border: none;
+  background-color: #32D2F2 ;
+  font-weight: lighter;
+  font-size: 20px;
+  position: absolute;
+  top: 40px;
+  right: 40px;
+}
+.form {
+
+}
